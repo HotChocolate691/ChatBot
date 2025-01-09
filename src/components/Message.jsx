@@ -5,8 +5,8 @@ const Message = ({ text, isBot }) => (
   <div
     className={`flex pt-1 md:pt-2 mx-4 my-3 rounded-lg bg-gray-200 ${
       isBot
-        ? "text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 self-start"
-        : "text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 font-semibold self-end"
+        ? "bg-transparent text-purple-600  self-start"
+        : "bg-transparent  text-pink-400 font-semibold self-end"
     }`}
   >
     <div className="mr-3 mt-1">
